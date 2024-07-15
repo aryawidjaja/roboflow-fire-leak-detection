@@ -44,7 +44,7 @@ This project uses a machine learning model to detect fire, smoke, and leaks from
     mkdir -p captured
     ```
 
-### Configuration
+## Configuration
    Set your Roboflow API key and model ID in the `deploy_jetson.py` file:
     ```python
     # Set your API key and model ID
@@ -52,20 +52,20 @@ This project uses a machine learning model to detect fire, smoke, and leaks from
     MODEL_ID = "fire-smoke-leak-detection/1"
     ```
 
-### Running the Application
+## Running the Application
    To start the detection, run:
     ```bash
     python deploy_jetson.py
     ```
     The script will capture the webcam feed, perform inference using the Roboflow model, and save images with detected hazards to the captured folder.
 
-### Local Testing
+## Local Testing
    To test the application locally on your MacBook, use the deploy_local.py script. Set your Roboflow API key and model ID, and run:
     ```bash
     python deploy_local.py
     ```
 
-### Directory Structure
+## Directory Structure
     roboflow-fire-leak-detection/
     ├── captured/
     ├── deploy_local.py
@@ -74,5 +74,5 @@ This project uses a machine learning model to detect fire, smoke, and leaks from
     ├── requirements.txt
     └── .gitignore
 
-### License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
