@@ -16,7 +16,7 @@ This project uses a machine learning model to detect fire, smoke, and leaks from
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/roboflow-fire-leak-detection.git
+   git clone https://github.com/aryawidjaja/roboflow-fire-leak-detection.git
    cd roboflow-fire-leak-detection
    ```
 
