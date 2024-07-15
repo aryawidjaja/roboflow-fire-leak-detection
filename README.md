@@ -1,4 +1,4 @@
-# Fire, Smoke, and Leak Detection
+# Fire, Smoke, and Leak Detection 🔥💨💦
 
 This project uses a machine learning model to detect fire, smoke, and leaks from a webcam feed. The model was trained using Roboflow and is deployed on an NVIDIA Jetson Orin Nano.
 
