@@ -24,8 +24,14 @@ This project uses a machine learning model to detect fire, smoke, and leaks from
     ```bash
     pip install -r requirements.txt
     ```
+3. Ensure that your Jetson is flashed with Jetpack 4.5, 4.6, or 5.1. You can check your existing setup with this repository from Jetson Hacks:
+   ```bash
+   git clone https://github.com/jetsonhacks/jetsonUtilities.git
+   cd jetsonUtilities
+   python jetsonInfo.py
+   ```
 
-3. Run the Roboflow Inference Server Docker container on the Jetson:
+4. Run the Roboflow Inference Server Docker container on the Jetson:
     ```bash
     sudo docker run --privileged --net=host --runtime=nvidia \
     --mount source=roboflow,target=/tmp/cache -e NUM_WORKERS=1 \
@@ -33,7 +39,7 @@ This project uses a machine learning model to detect fire, smoke, and leaks from
     ```
     Note: The Docker image you need depends on what JetPack version you are using.
 
-4. Ensure the captured directory exists:
+5. Ensure the captured directory exists:
     ```bash
     mkdir -p captured
     ```
