@@ -66,7 +66,7 @@ To test the application locally on your MacBook, use the deploy_local.py script.
     ```
 
 ### Directory Structure
-    ```
+    ```bash
     roboflow-fire-leak-detection/
     ├── captured/
     ├── deploy_local.py
